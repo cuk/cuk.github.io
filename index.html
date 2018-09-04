@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ethmo Blockchain Solutions</title>
+		<meta charset="utf-8">
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<!-- web-font -->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- web-font -->
+		<!-- js -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!-- js -->
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!-- start-smoth-scrolling -->
+	</head>
+	<body>
+		<!-- header -->
+		<div id="home" class="head-bg">
+			<div class="header">
+				<!-- container -->
+				<div class="container">
+					<div class="header-logo">
+						<a href="#"><img src="images/logo.png" alt="" /></a>
+					</div>
+					<div class="top-nav">
+						<span class="menu">MENU</span>
+						<ul class="nav1">
+							<li><a href="#home" class="scroll">Home</a></li>
+							<li><a href="#about" class="scroll">About</a></li>
+							<li><a href="#services" class="scroll">Services</a></li>  
+							<li><a href="#portfolio" class="scroll">Portfolio</a></li>
+							<li><a href="#address" class="scroll">Contact Us</a></li>
+						</ul>
+						<!-- script-for-menu -->
+							 <script>
+							   $( "span.menu" ).click(function() {
+								 $( "ul.nav1" ).slideToggle( 300, function() {
+								 // Animation complete.
+								  });
+								 });
+							</script>
+						<!-- /script-for-menu -->
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!-- //container -->
+			</div>
+			<div class="container">
+			<!-- banner Slider starts Here -->
+					<script src="js/responsiveslides.min.js"></script>
+					 <script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider3").responsiveSlides({
+							auto: true,
+							pager: false,
+							nav: true,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+
+						});
+					  </script>
+					<!--//End-slider-script -->
+					<div  id="top" class="callbacks_container">
+						<ul class="rslides" id="slider3">
+							<li>
+								<div class="head-info">
+									<h1>Secure Messaging <span>Secured by Blockchain</span></h1>
+									<p>Accelerate innovation and transform your bussiness with FlyBit Blockchain</p>
+								</div>
+							</li>
+							<li>
+								<div class="head-info">
+									<h1>Proof of Existence <span>Blockchain Based Document Management</span></h1>
+									<p>Accelerate innovation and transform your bussiness with FlyBit Blockchain</p>
+								</div>
+							</li>
+							<li>
+								<div class="head-info">
+									<h1>Supply Chain <span>Blockchain for Product traceability</span></h1>
+									<p>Accelerate innovation and transform your bussiness with FlyBit Blockchain</p>
+								</div>
+							</li>
+							<li>
+								<div class="head-info">
+									<h1>Internet of Things <span>Blockchain based IoT</span></h1>
+									<p>Accelerate innovation and transform your bussiness with FlyBit Blockchain</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+		</div>
+		<!-- //header -->
+
+		<!-- agency -->
+		<div id="about" class="agency">
+			<div class="agency-left">
+				<h2><span>Explore the</span> blockchain <span>potential</span></h2>
+				<h4>Acquire <span>blockchain</span> knowledge, develop cutting-edge solutions based on
+					<span>FlyBit blockchain</span>
+				</h4>
+				<p>We act as an end-to-end partner of blockchain projects from the initial exploratory phase, through the business case construction until solution development and roll-out. </p>
+				<p>Our clients are companies:</p>
+				<ul>
+					<li>
+						<p>For whom blockchain has&nbsp;<span style="font-weight:bold;">a major strategic impact</span> on their business as a threat or as an opportunity</p>
+					</li>
+					<li>
+						<p>For whom blockchain offers <span style="font-weight:bold;">a tactical opportunity</span> to improve,&nbsp;diversify or optimize current activities</p>
+					</li>
+					<li>
+						<p>Whose <span style="font-weight:bold;">customers have an interest in blockchain</span> technology</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //agency -->
+		<!-- services-bottom -->
+		<div class="services-bottom">
+			<script>
+                // You can also use "$(window).load(function() {"
+                $(function () {
+                    // Slideshow 4
+                    $("#slider4").responsiveSlides({
+                        auto: true,
+                        pager: true,
+                        nav: false,
+                        speed: 500,
+                        namespace: "callbacks",
+                        before: function () {
+                            $('.events').append("<li>before event fired.</li>");
+                        },
+                        after: function () {
+                            $('.events').append("<li>after event fired.</li>");
+                        }
+                    });
+
+                });
+			</script>
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider4">
+					<li>
+						<div class="services-bottom-text">
+							<h3>Buid <span>Openness, Fairness and Justice</span> digital society.</h3>
+							<div class="sub-text">
+								<span class="line"></span>
+								<span class="line-anchor">OUR VISION</span>
+								<span class="line"></span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="services-bottom-text another">
+							<h4>
+								To provide low cost solutions of trusted open ledger for businesses and customers.
+								We believe that Blockchain technology will change current economic and social paradigms
+								and strive to grow our business to emerge as a global leader in Blockchain.</h4>
+							<div class="sub-text">
+								<span class="line"></span>
+								<span class="line-anchor">OUR MISSION</span>
+								<span class="line"></span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="services-bottom-text">
+							<h3><span>Equality, Justice, Integrity, Respect</span></h3>
+							<div class="sub-text">
+								<span class="line"></span>
+								<span class="line-anchor">OUR VALUES</span>
+								<span class="line"></span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //services-bottom -->
+		<!-- services -->
+		<div id="services" class="services">
+			<!-- container -->
+			<div class="container">
+				<div class="services-info">
+					<h3>Our <span>Services</span></h3>
+					<p>Ethmo is a solutions design & development company specialized in blockchain technology. We assist companies willing to develop solutions based on blockchain technology or to explore its potential impact.</p>
+				</div>
+				<div class="services-grids">
+					<div class="service-grid">
+						<div class="service-grid-bg">
+							<div class="service-grid-text">
+								<img src="images/document-certificate_32.png" alt="" />
+								<div class="border"> </div>
+								<h5>Proof of Existence</h5>
+								<p>Document management in blockchain.</p>
+							</div>
+						</div>
+					</div>
+					<div class="service-grid">
+						<div class="service-grid-bg red">
+							<div class="service-grid-text">
+								<img src="images/messaging.png" alt="" />
+								<div class="border"> </div>
+								<h5>Secure Messaging</h5>
+								<p>Message encrypted by shared secret.</p>
+							</div>
+						</div>
+					</div>
+					<div class="service-grid">
+						<div class="service-grid-bg">
+							<div class="service-grid-text">
+								<img src="images/supply-chain.png" alt="" />
+								<div class="border"> </div>
+								<h5>Supply Chain</h5>
+								<p>Trace products to their source for enhanced authenticity and safety.</p>
+							</div>
+						</div>
+					</div>
+					<div class="service-grid">
+						<div class="service-grid-bg red">
+							<div class="service-grid-text">
+								<img src="images/iot.png" alt="" />
+								<div class="border"> </div>
+								<h5>Internet of Things</h5>
+								<p>Blockchain IOT gateway transform and record the data in Blockchain.</p>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //services -->
+
+		<!-- blog -->
+		<div id="portfolio" class="work">
+			<!-- container -->
+			<div class="container">
+				<div class="work-info">
+					<h3>What we solve for <span>your business</span></h3>
+					<p>Blockchain offers a shared ledger that is updated and validated in real time with each network participant.
+						It enables equal visibility of activities and reveals who owns it and what condition it’s in.
+						Learn how blockchain is revolutionizing your business. Coming soon...</p>
+				</div>
+				<script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+					  // Slideshow 4
+					  $("#slider1").responsiveSlides({
+						auto: true,
+						pager: false,
+						nav: true,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+							 $('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+								$('.events').append("<li>after event fired.</li>");
+						}
+					 });
+						
+					});
+				</script>
+				<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider1">
+						<li>
+							<div class="work-info-grids">
+								<div class="blog-info-grid">
+									<div class="work-info-grid first">
+										<img src="images/securemsg.png" alt="" />
+										<div class="caption">
+											<span> </span>
+										</div>
+									</div>
+									<div class="blog-info-grid-text">
+										<label>Ethmo Messenger</label>
+										<h5>Secure Messaging</h5>
+										<p>No central party control all the messages.<br/>
+											Message can not be tampered by in any way.<br/>
+											History messages can not be changed, deleted, or manipulated. <br/>
+										    Messages are encrypted and only accessible to authorized entities.
+									</div>
+								</div>
+								<div class="blog-info-grid">
+									<div class="work-info-grid first">
+										<img src="images/document.jpeg" alt="" />
+										<div class="caption">
+											<span> </span>
+										</div>
+									</div>
+									<div class="blog-info-grid-text gray">
+										<label>Ethmo POE</label>
+										<h5>Proof of Existence</h5>
+										<p>The decentralized protocol for document ownership, discovery
+											and tracking. <br/>
+											Records immutable and timestamped information about document state changes in blockchain. </p>
+									</div>
+								</div>
+								<div class="blog-info-grid">
+									<div class="work-info-grid first">
+										<img src="images/iot1.png" alt="" />
+										<div class="caption">
+											<span> </span>
+										</div>
+									</div>
+									<div class="blog-info-grid-text">
+										<label>Ethmo Blockchain Gateway</label>
+										<h5>Blockchain-based IOT</h5>
+										<p>Ethmo Blockchain-Gateway is a middleware that connects machines with Blockchain platform.  The data stream from things are transformed and sent as transactions to the Blockchain.</p>
+									</div>
+								</div>
+
+								<div class="clearfix"> </div>
+							</div>
+						</li>
+						<li>
+							<div class="work-info-grids">
+								<div class="blog-info-grid">
+									<div class="work-info-grid first">
+										<img src="images/document.jpeg" alt="" />
+										<div class="caption">
+											<span> </span>
+										</div>
+									</div>
+									<div class="blog-info-grid-text gray">
+										<label>Ethmo POE</label>
+										<h5>Proof of Existence</h5>
+										<p>The decentralized protocol for document ownership, discovery
+											and tracking. <br/>
+											Records immutable and timestamped information about document state changes in blockchain. </p>
+									</div>
+								</div>
+								<div class="blog-info-grid">
+									<div class="work-info-grid first">
+										<img src="images/iot1.png" alt="" />
+										<div class="caption">
+											<span> </span>
+										</div>
+									</div>
+									<div class="blog-info-grid-text">
+										<label>Ethmo Blockchain Gateway</label>
+										<h5>Blockchain-based IOT</h5>
+										<p>Ethmo Blockchain-Gateway is a middleware that connects machines with Blockchain platform.  The data stream from things are transformed and sent as transactions to the Blockchain.</p>
+									</div>
+								</div>
+
+								<div class="blog-info-grid">
+									<div class="work-info-grid first">
+										<img src="images/supply-chain-middle.png" alt="" />
+										<div class="caption">
+											<span> </span>
+										</div>
+									</div>
+									<div class="blog-info-grid-text">
+										<label>Ethmo Product Traceability</label>
+										<h5>Blockchain-based Supply Chain</h5>
+										<p>Eliminate information silos and ensure provenance with immutable records.<br/>
+											Access end-to-end supply chain data instantly and easily with full transparency.<br/>
+											Minimize waste and allocate inventory using insights from real-time demand forecasts.
+										</p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //blog -->
+		<!-- address -->
+		<div id="address" class="address">
+			<!-- container -->
+			<div class="container">
+				<ul>
+					<li>Accelerate innovation and transform your business with FlyBit Blockchain.</li>
+					<li class="p-number"><span></span></li>
+					<li><span>Email an expert </span>: <a href="mailto:expert@ethmo.com">expert@ethmo.com</a></li>
+				</ul>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //address -->
+		<!-- description -->
+		<div class="description">
+			<!-- //container -->
+			<div class="container">
+				<div class="col-md-8 description-left">
+					<ul>
+						<li><a href="#"><img src="images/logo-middle.png" alt="" /></a></li>
+						<li class="para">Ethmo is a solution and service provider for Blockchain technology as well as modern
+							enterprise software solutions. Professionalism, effectiveness, and innovation have
+							always been the core competencies of Ethmo on software projects of all sizes and
+							industries.</li>
+					</ul>
+				</div>
+				<div class="col-md-4 description-right">
+					<h5>General</h5>
+					<div class="border1"> </div>
+					<div class="list">
+						<ul>
+							<li><a href="#about">About</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+						</ul>
+					</div>
+					<div class="list">
+						<ul>
+							<li><a href="#">Secure Messaging</a></li>
+							<li><a href="#">Proof of Existence</a></li>
+							<li><a href="#">Supply Chain</a></li>
+							<li><a href="#">Internet of Things</a></li>
+
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //description -->
+		<!-- quote -->
+		<div class="quote">
+			<a href="#">ETHMO</a>
+		</div>
+		<!-- //quote -->
+		<!-- footer -->
+		<div class="footer">
+			<!-- footer-top -->
+			<div class="footer-top">
+				<div class="icons">
+					<div class="social-icons">
+						<span style="margin-right: 14px;"><a href="https://www.facebook.com/ethmo/" alt="Follow Us on facebook" title="Follow Us on facebook" target="_blank"><em class="fa fa-facebook fa-2x"></em></a></span>
+						<span style="margin-right: 14px;"><a href="https://twitter.com/ethmo/" alt="Follow Us on facebook" title="Follow Us on twitter" target="_blank"><em class="fa fa-twitter fa-2x"></em></a></span>
+						<span style="margin-right: 14px;"><a href="https://www.linkedin.com/company/ethmo/" alt="Follow Us on facebook" title="Follow Us on linkedin" target="_blank"><em class="fa fa-linkedin fa-2x"></em></a></span>
+					</div>
+					<p>2018 © Ethmo All Rights Reserved.
+					</p>
+				</div>
+			</div>
+			<!-- //footer-top -->
+		</div>
+		<!-- //footer -->
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- content-Get-in-touch -->
+
+</body>
+</html>
