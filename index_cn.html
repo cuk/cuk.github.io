@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ethmo Blockchain Solutions</title>
+		<meta charset="utf-8">
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<!-- web-font -->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- web-font -->
+		<!-- js -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!-- js -->
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!-- start-smoth-scrolling -->
+	</head>
+	<body>
+		<!-- header -->
+		<div id="home" class="head-bg">
+			<div class="header">
+				<!-- container -->
+				<div class="container">
+					<div class="header-logo">
+						<a href="#"><img src="images/logo.png" alt="" /></a>
+					</div>
+					<div class="top-nav">
+						<span class="menu">MENU</span>
+						<ul class="nav1">
+							<li><a href="#home" class="scroll">首页</a></li>
+							<li><a href="#about" class="scroll">关于</a></li>
+							<li><a href="#services" class="scroll">服务</a></li>
+							<li><a href="#portfolio" class="scroll">产品</a></li>
+							<li><a href="#address" class="scroll">联系我们</a></li>
+                            <li><a href="./index.html" class="scroll">English</a></li>
+						</ul>
+						<!-- script-for-menu -->
+							 <script>
+							   $( "span.menu" ).click(function() {
+								 $( "ul.nav1" ).slideToggle( 300, function() {
+								 // Animation complete.
+								  });
+								 });
+							</script>
+						<!-- /script-for-menu -->
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!-- //container -->
+			</div>
+			<div class="container">
+			<!-- banner Slider starts Here -->
+					<script src="js/responsiveslides.min.js"></script>
+					 <script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider3").responsiveSlides({
+							auto: true,
+							pager: false,
+							nav: true,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+
+						});
+					  </script>
+					<!--//End-slider-script -->
+					<div  id="top" class="callbacks_container">
+						<ul class="rslides" id="slider3">
+							<li>
+								<div class="head-info">
+									<h1>安全通信 <span>基于区块链的密码安全</span></h1>
+									<p>FlyBit区块链助您业务创新</p>
+								</div>
+							</li>
+							<li>
+								<div class="head-info">
+									<h1>存证 <span>基于区块链的文档管理</span></h1>
+									<p>FlyBit区块链助您业务创新</p>
+								</div>
+							</li>
+							<li>
+								<div class="head-info">
+									<h1>供应链 <span>基于区块链的产品追踪</span></h1>
+									<p>FlyBit区块链助您业务创新</p>
+								</div>
+							</li>
+							<li>
+								<div class="head-info">
+									<h1>物联网 <span>区块链物联网网关</span></h1>
+									<p>FlyBit区块链助您业务创新</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+		</div>
+		<!-- //header -->
+
+		<!-- agency -->
+		<div id="about" class="agency">
+			<div class="agency-left">
+				<h2><span>开发</span>区块链<span>潜能</span></h2>
+				<h4><span>区块链</span>赋能, 基于<span>FlyBit 区块链</span>开发先进的解决方案
+
+				</h4>
+				<p>作为端到端的区块链方案提供商，我们为您提供从构建到落地应用的针对具体业务特性定制的业务区块链解决方案。</p>
+				<p>我们的客户包括:</p>
+				<ul>
+					<li>
+						<p>区块链作为新的机会和挑战对业务具有<span style="font-weight:bold;">巨大战略影响</span></p>
+					</li>
+					<li>
+						<p>区块链可提供提高或优化现在业务活动<span style="font-weight:bold;">技术机会</span></p>
+					</li>
+					<li>
+						<p>企业客户对区块链具有<span style="font-weight:bold;">技术要求</span> </p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //agency -->
+		<!-- services-bottom -->
+		<div class="services-bottom">
+			<script>
+                // You can also use "$(window).load(function() {"
+                $(function () {
+                    // Slideshow 4
+                    $("#slider4").responsiveSlides({
+                        auto: true,
+                        pager: true,
+                        nav: false,
+                        speed: 500,
+                        namespace: "callbacks",
+                        before: function () {
+                            $('.events').append("<li>before event fired.</li>");
+                        },
+                        after: function () {
+                            $('.events').append("<li>after event fired.</li>");
+                        }
+                    });
+
+                });
+			</script>
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider4">
+					<li>
+						<div class="services-bottom-text">
+							<h3>创建<span>开放的,公平的、公正的</span>数字社会</h3>
+							<div class="sub-text">
+								<span class="line"></span>
+								<span class="line-anchor">我们的远景</span>
+								<span class="line"></span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="services-bottom-text another">
+							<h3>
+                                我们相信区块链技术将改变现有经济与社会模式
+								<br/>致力于发展成为全球区块链领导者
+								</h3>
+							<div class="sub-text">
+								<span class="line"></span>
+								<span class="line-anchor">我们的远景</span>
+								<span class="line"></span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="services-bottom-text">
+							<h3><span>平等, 公正, 诚信, 尊重</span></h3>
+							<div class="sub-text">
+								<span class="line"></span>
+								<span class="line-anchor">我们的远景</span>
+								<span class="line"></span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //services-bottom -->
+		<!-- services -->
+		<div id="services" class="services">
+			<!-- container -->
+			<div class="container">
+				<div class="services-info">
+					<h3>我们的<span>服务</span></h3>
+					<p>专注于区块链技术解决方案的设计与研发，为企业区块链赋能。</p>
+				</div>
+				<div class="services-grids">
+					<div class="service-grid">
+						<div class="service-grid-bg">
+							<div class="service-grid-text">
+								<img src="images/document-certificate_32.png" alt="" />
+								<div class="border"> </div>
+								<h5>存证</h5>
+								<p style="width:220px;">基于区块链的文档管理</p>
+							</div>
+						</div>
+					</div>
+					<div class="service-grid">
+						<div class="service-grid-bg red">
+							<div class="service-grid-text">
+								<img src="images/messaging.png" alt="" />
+								<div class="border"> </div>
+								<h5>案例通信</h5>
+								<p style="width:220px;">通信信息共享密钥加密</p>
+							</div>
+						</div>
+					</div>
+					<div class="service-grid">
+						<div class="service-grid-bg">
+							<div class="service-grid-text">
+								<img src="images/supply-chain.png" alt="" />
+								<div class="border"> </div>
+								<h5>供应链</h5>
+								<p style="width:220px;">产品溯源及加强产品的认证与安全</p>
+							</div>
+						</div>
+					</div>
+					<div class="service-grid">
+						<div class="service-grid-bg red">
+							<div class="service-grid-text">
+								<img src="images/iot.png" alt="" />
+								<div class="border"> </div>
+								<h5>物联网</h5>
+								<p style="width:220px;">区块链物联网网关</p>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //services -->
+
+		<!-- blog -->
+		<div id="portfolio" class="work">
+			<!-- container -->
+			<div class="container">
+				<div class="work-info">
+					<h3>我们为<span>您的业务</span>解决</h3>
+					<p>区块链提供多方参与可实时更新与验证的公开账本.。业务活动的状态公平地由多方可见。</p>
+				</div>
+				<script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+					  // Slideshow 4
+					  $("#slider1").responsiveSlides({
+						auto: true,
+						pager: false,
+						nav: true,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+							 $('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+								$('.events').append("<li>after event fired.</li>");
+						}
+					 });
+						
+					});
+				</script>
+				<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider1">
+						<li>
+							<div class="work-info-grids">
+								<div class="blog-info-grid">
+									<div class="work-info-grid first">
+										<img src="images/securemsg.png" alt="" />
+										<div class="caption">
+											<span> </span>
+										</div>
+									</div>
+									<div class="blog-info-grid-text">
+										<label>通信工具</label>
+										<h5>安全通信</h5>
+										<p>无中心机构控制通信。<br/>
+                                            任何第三方无法监听或篡改通信内容。<br/>
+											通信历史不可更改、删除。<br/>
+										    通信内容由通信双方加密，仅通信双方可见。
+									</div>
+								</div>
+								<div class="blog-info-grid">
+									<div class="work-info-grid first">
+										<img src="images/document.jpeg" alt="" />
+										<div class="caption">
+											<span> </span>
+										</div>
+									</div>
+									<div class="blog-info-grid-text gray">
+										<label>存证</label>
+										<h5>存证</h5>
+										<p>文档所有权、发现及跟踪的去中心化协议。 <br/>
+											文档状态变化记录在不可篡改的分布式账本中。</p>
+									</div>
+								</div>
+								<div class="blog-info-grid">
+									<div class="work-info-grid first">
+										<img src="images/iot1.png" alt="" />
+										<div class="caption">
+											<span> </span>
+										</div>
+									</div>
+									<div class="blog-info-grid-text">
+										<label>物联网网关</label>
+										<h5>基于区块链的 IOT</h5>
+										<p>区块链物联网网关是连接机器与区块链平台的中间件。来自设备的数据流通过网关经转换发送至区块链平台。</p>
+									</div>
+								</div>
+
+								<div class="clearfix"> </div>
+							</div>
+						</li>
+						<li>
+							<div class="work-info-grids">
+								<div class="blog-info-grid">
+									<div class="work-info-grid first">
+										<img src="images/document.jpeg" alt="" />
+										<div class="caption">
+											<span> </span>
+										</div>
+									</div>
+                                    <div class="blog-info-grid-text gray">
+                                        <label>存证</label>
+                                        <h5>存证</h5>
+                                        <p>文档所有权、发现及跟踪的去中心化协议。 <br/>
+                                            文档状态变化记录在不可篡改的分布式账本中。</p>
+                                    </div>
+								</div>
+								<div class="blog-info-grid">
+									<div class="work-info-grid first">
+										<img src="images/iot1.png" alt="" />
+										<div class="caption">
+											<span> </span>
+										</div>
+									</div>
+                                    <div class="blog-info-grid-text">
+                                        <label>物联网网关</label>
+                                        <h5>基于区块链的 IOT</h5>
+                                        <p>区块链物联网网关是连接机器与区块链平台的中间件。来自设备的数据流通过网关经转换发送至区块链平台。</p>
+                                    </div>
+								</div>
+
+								<div class="blog-info-grid">
+									<div class="work-info-grid first">
+										<img src="images/supply-chain-middle.png" alt="" />
+										<div class="caption">
+											<span> </span>
+										</div>
+									</div>
+									<div class="blog-info-grid-text">
+										<label>产品追踪</label>
+										<h5>基于区块链的供应链</h5>
+										<p>去除数据孤岛，完全透明、实时地访问供应链数据。
+										</p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //blog -->
+		<!-- address -->
+		<div id="address" class="address">
+			<!-- container -->
+			<div class="container">
+				<ul>
+					<li>促进您业务的创新与转型</li>
+					<li class="p-number"><span></span></li>
+					<li><span>Email</span>: <a href="mailto:expert@ethmo.com">expert@ethmo.com</a></li>
+				</ul>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //address -->
+		<!-- description -->
+		<div class="description">
+			<!-- //container -->
+			<div class="container">
+				<div class="col-md-8 description-left">
+					<ul>
+						<li style="vertical-align:top"><img src="images/logo-middle.png" alt="" /></li>
+						<li class="para">我们是现代企业软件解决方案与区块链解决方案与服务提供商。
+                            专业、高效、创新始终是我们软件项目实施的核心能力。</li>
+					</ul>
+				</div>
+				<div class="col-md-4 description-right">
+					<h5>总览</h5>
+					<div class="border1"> </div>
+					<div class="list">
+						<ul>
+							<li><a href="#about">关于</a></li>
+							<li><a href="#services">服务</a></li>
+							<li><a href="#portfolio">产品</a></li>
+						</ul>
+					</div>
+					<div class="list">
+						<ul>
+							<li><a href="#">安全通信</a></li>
+							<li><a href="#">存证</a></li>
+							<li><a href="#">供应链</a></li>
+							<li><a href="#">物联网</a></li>
+
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //description -->
+		<!-- quote -->
+		<div class="quote">
+			<a href="#">ETHMO</a>
+		</div>
+		<!-- //quote -->
+		<!-- footer -->
+		<div class="footer">
+			<!-- footer-top -->
+			<div class="footer-top">
+				<div class="icons">
+					<div class="social-icons">
+						<span style="margin-right: 14px;"><a href="https://www.facebook.com/ethmo/" alt="Follow Us on facebook" title="Follow Us on facebook" target="_blank"><em class="fa fa-facebook fa-2x"></em></a></span>
+						<span style="margin-right: 14px;"><a href="https://twitter.com/ethmo/" alt="Follow Us on facebook" title="Follow Us on twitter" target="_blank"><em class="fa fa-twitter fa-2x"></em></a></span>
+						<span style="margin-right: 14px;"><a href="https://www.linkedin.com/company/ethmo/" alt="Follow Us on facebook" title="Follow Us on linkedin" target="_blank"><em class="fa fa-linkedin fa-2x"></em></a></span>
+					</div>
+					<p>2018 © Ethmo All Rights Reserved.
+					</p>
+				</div>
+			</div>
+			<!-- //footer-top -->
+		</div>
+		<!-- //footer -->
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- content-Get-in-touch -->
+
+</body>
+</html>
